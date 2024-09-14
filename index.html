@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Bot Dashboard</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#developers">Developers</a></li>
+                <li><a href="#owner">Owner</a></li>
+                <li><a href="#commands">Commands</a></li>
+                <li><a href="#settings">Settings</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to the Dashboard</h2>
+            <img src="banner.jpg" alt="Banner" class="banner-img">
+            <p>Manage your bot and servers with ease.</p>
+        </section>
+        <section id="developers">
+            <h2>Meet the Developers</h2>
+            <img src="developers.jpg" alt="Developers" class="section-img">
+            <p>Our team of skilled developers.</p>
+        </section>
+        <section id="owner">
+            <h2>About the Owner</h2>
+            <img src="owner.jpg" alt="Owner" class="section-img">
+            <p>Learn more about the owner of this bot.</p>
+        </section>
+        <section id="commands">
+            <h2>Bot Commands</h2>
+            <img src="commands.jpg" alt="Commands" class="section-img">
+            <p>Explore all the commands available for the bot.</p>
+        </section>
+        <section id="settings">
+            <h2>Settings</h2>
+            <form id="settings-form">
+                <label for="server-name">Server Name:</label>
+                <input type="text" id="server-name" name="server-name">
+                <label for="bot-prefix">Bot Prefix:</label>
+                <input type="text" id="bot-prefix" name="bot-prefix">
+                <button type="submit">Save Settings</button>
+            </form>
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch for support or inquiries.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Bot Dashboard. All rights reserved.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
